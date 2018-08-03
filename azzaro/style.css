@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* Style khan akbar */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+
+body{
+    background: #000;
+}
+
+
+.clear{
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+main{
+    background: rgb(246, 246, 246);
+    width: 1000px;
+    margin: 0  auto;
+}
+
+
+.fl{
+    float: left;
+}
+
+/* Titre h1 du header */
+.nom_site{
+    /* font-style: italic; */
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    top: -30px;
+}
+h1{
+    margin: 0;
+}
+
+.slogan{
+    /* display: inline-block; */
+    color: #f531eb;
+    font-style: italic;
+    position: relative;
+    left: 10px;
+}
+
+.aide{
+    display: inline-block;
+    margin: 0 10px 0 100px;
+    position: relative;
+    top: -2px;
+    width: 254px;
+}
+.aide .num{
+    position: relative;
+    bottom: 6px;
+    right: 110px;
+}
+.help{
+    color: #0a85d8;
+    font-size: 30px;
+    margin: 0;
+}
+.horaires{
+    position: relative;
+    left: -5px;
+    /* top: 20px; */
+    color: #797373;
+}
+
+.panier{
+    background:#0a85d8;
+    display: inline-block;
+    position: relative;
+    right: -23px;
+    top: -11px;
+    width: 292px;
+    text-align: center;
+}
+.panier p.compte{
+    border-bottom: 1px solid #fff; 
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 10px;
+    background: #0a85d8;
+}
