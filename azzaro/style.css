@@ -87,8 +87,79 @@ h1{
     border-bottom: 1px solid #fff; 
 }
 
+.panierImg{
+    position: relative;
+    float: left;
+    bottom: 15px;
+}
+
 nav ul li{
-    display: inline-block;
-    padding: 0 10px;
+    float: left;
+    list-style: none;
+    /* display: inline-block; */
+    /* padding: 0 10px; */
     background: #0a85d8;
+    width: 166px;
+}
+
+nav ul li:first-child{
+    background: #e616d4;
+    width: 170px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    /* margin-bottom: 20px; */
+    align-content: center;
+}
+
+.services1{
+    width: 250px;
+    float: left;
+    margin: 0 5px;
+}
+
+.services2{
+    width: 500px;
+    float: left;
+    margin: 0 5px;
+}
+
+.services3{
+    width: 200px;
+    float: left;
+    margin: 0 5px;
+}
+
+div.services3 p{
+    margin-left: 50px;
+}
+
+.section2{
+    margin-top: 20px;
+    padding: 0 14px;
+    text-align: center;
+}
+
+.boutique{
+    width: 300px;
+    float: left;
+    box-shadow: 1px 0px 3px 2px #636262;
+    border-radius: 10px;
+    margin: auto 12px;
+    height: 210px;
+}
+
+.bleu{
+    display: inline-block;
+    color: aqua;
+}
+
+footer{
+    background: #0a85d8;
+    height: 50px;
+    text-align: center;
 }
